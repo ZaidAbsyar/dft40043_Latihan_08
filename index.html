@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemilihan Kereta</title>
+</head>
+<body>
+
+<form enctype="multipart/form-data" action="simpan.html"method="post">
+    <table>
+
+        <tr>
+            <td>Gambar</td>
+            <td>
+                 <input type="file"name="Gambar"> 
+            </td>
+        </tr>
+
+        <tr>
+            <td>Kereta</td>
+            <td>
+                <select name="kereta"required>
+                  <optgroup label="Toyota">
+                      <option>vios</option>
+                      <option>altis</option>
+                      <option>camry</option>
+                  </optgroup>
+                  <optgroup label="Perodua">
+                      <option>myvi</option>
+                      <option>viva</option>
+                  </optgroup>
+                </select>
+            </td>
+        </tr>
+    </table>
+            <button type="submit">SUBMIT</button>
+
+</body>
+</html>
